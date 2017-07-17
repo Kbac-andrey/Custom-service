@@ -155,19 +155,19 @@ ol, ul {
 .categories .categories-item:hover .chat {
 	background: url("image/sidebar/chat-active.png")left center no-repeat;
 }
-.categories .categories-item:hover .Products {
+.categories .categories-item:hover .products {
 	background: url("image/sidebar/products-active.png")left center no-repeat;
 }
-.categories .categories-item:hover .Services {
+.categories .categories-item:hover .services {
 	background: url("image/sidebar/services-active.png")left center no-repeat;
 }
-.categories .categories-item:hover .Leads {
+.categories .categories-item:hover .leads {
 	background: url("image/sidebar/leads-active.png")left center no-repeat;
 }
-.categories .categories-item:hover .Settings {
+.categories .categories-item:hover .settings {
 	background: url("image/sidebar/settings.png")left center no-repeat;
 }
-.categories .categories-item:hover .Help {
+.categories .categories-item:hover .help {
 	background: url("image/sidebar/help-active.png")left center no-repeat;
 }
 .categories .categories-item .home {
@@ -176,19 +176,19 @@ ol, ul {
 .categories .categories-item .chat {
 	background: url("image/sidebar/chat.png")left center no-repeat;
 }
-.categories .categories-item .Products {
+.categories .categories-item .products {
 	background: url("image/sidebar/products.png")left center no-repeat;
 }
-.categories .categories-item .Services {
+.categories .categories-item .services {
 	background: url("image/sidebar/services.png")left center no-repeat;
 }
-.categories .categories-item .Leads {
+.categories .categories-item .leads {
 	background: url("image/sidebar/leads.png")left center no-repeat;
 }
-.categories .categories-item .Settings {
+.categories .categories-item .settings {
 	background: url("image/sidebar/settings--not-active.png")left center no-repeat;
 }
-.categories .categories-item .Help {
+.categories .categories-item .help {
 	background: url("image/sidebar/help.png")left center no-repeat;
 }
 
