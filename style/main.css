@@ -202,7 +202,6 @@ ol, ul {
 	display: inline-block;
 	vertical-align: middle;
 	width: 10%;
-
 }
 .home-active:hover {
 	background: url("image/sidebar/home-active.png")  no-repeat;
