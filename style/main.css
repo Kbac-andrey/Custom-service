@@ -486,9 +486,38 @@ and (orientation : landscape) {
 		zoom: 50%;
 	}
 }
+/*----------------------new iphone*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+	body {
+		zoom: 50%;
+	}
+	.main-wind-all {
+		width: 100%;
+	}
+	.inform-account {
+		margin-left:  100px;
+	}
+}
+
+/* ----------- iPad ----------- */
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 1024px)
+and (orientation : portrait) {
+	body {
+		zoom: 50%;
+	}
+}
+
+
+/*----------------------new iphone*/
+
 @media only screen
 and (min-device-width : 768px)
-and (max-device-width : 1024px)
+and (max-device-width: 1023px)
 and (orientation : portrait) {
 	.main-wind-all {
 		width: 100%;
@@ -574,6 +603,10 @@ and (orientation : portrait) {
 	.hide-sidebar {
 		display: block;
 	}
+	.tag-item {
+		padding-left: 22px;
+	}
+
 	.avatar-edit {
 		width: 42px;
 	}
@@ -674,8 +707,12 @@ and (orientation : portrait)
 	.hide-sidebar {
 		display: block;
 	}
+	.tag-item {
+		padding-left: 10px;
+	}
 	body {
 		zoom: 50%;
 	}
 
 }
+
