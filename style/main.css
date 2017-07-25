@@ -376,8 +376,6 @@ ol, ul {
 	border:  0 none;
 
 }
-
-
 /*-----------change-accoun-------------*/
 .password-title-text{
 	font: 32px 'HelveticaLTStd-Light', sans-serif;
@@ -471,22 +469,12 @@ ol, ul {
 	vertical-align: middle;
 	display: inline-block;
 	padding-left: 26px;
-	width: 90%;
 	text-decoration: none;
 	font: 30px 'HelveticaNeueLTStd-Roman', sans-serif;
 	color: #ff0000;
 }
 
 /*-----------@mediaqueries-------------*/
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-	body {
-		zoom: 50%;
-	}
-}
-/*----------------------new iphone*/
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
@@ -501,117 +489,63 @@ and (orientation : landscape) {
 		margin-left:  100px;
 	}
 }
-
-/* ----------- iPad ----------- */
-/* Portrait and Landscape */
+/* ----------- iPhone ----------- */
 @media only screen
-and (min-device-width: 1024px)
-and (orientation : portrait) {
+and (width : 640px)
+and (orientation : landscape) {
+
+	body {
+		zoom: 50%;
+	}
+	.main-wind-all {
+		width: 100%;
+	}
+	.tag-item {
+		padding-right: 110px;
+	}
+}
+
+@media only screen
+and (min-device-width : 641px)
+and (max-device-width : 667px)
+and (orientation : landscape) {
+	body {
+		zoom: 50%;
+	}
+
+	.main-wind-all {
+		width: 100%;
+	}
+	.tag-item {
+		padding-right: 110px;
+	}
+}
+
+@media only screen
+and (min-device-width : 668px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+	body {
+		zoom: 50%;
+	}
+
+	.main-wind-all {
+		width: 100%;
+	}
+	.tag-item {
+		padding-right: 110px;
+	}
+}
+/* ----------- iPad ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
 	body {
 		zoom: 50%;
 	}
 }
-
-
-/*----------------------new iphone*/
-
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width: 1023px)
-and (orientation : portrait) {
-	.main-wind-all {
-		width: 100%;
-	}
-	.breadcrumbs {
-		display: none;
-	}
-	.avatar-ico {
-		width: 154px;
-		position: absolute;
-		top: -75px;
-		left: 0;
-	}
-
-	.avatar-link{
-		position: absolute;
-		top: -75px;
-		left: 110px;
-	}
-	.account-Success-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
-		-webkit-border-radius: 6px;
-		-moz-border-radius: 6px;
-		-o-border-radius: 6px;
-		border-radius: 6px;
-		position: relative;
-		padding: 10px 10px 13px 13px;
-		width: 100%;
-		bottom: 85px;
-		outline: none;
-		border: 2px solid #8dc63f;
-		background: #f0efef;
-		margin: 17px 0;
-	}
-	.district-phone {
-		position: relative;
-		bottom: 75px;
-	}
-	.district-input-phone{
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
-		-webkit-border-radius: 6px;
-		-moz-border-radius: 6px;
-		-o-border-radius: 6px;
-		border-radius: 6px;
-		width: 80%;
-		outline: none;
-		border:0 none;
-		background: #f0efef;
-		padding: 10px 10px 20px 23px;
-	}
-	.coutry-phone {
-		position: relative;
-		left: -50%;
-		bottom: 70px;
-	}
-	.coutry-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
-		-webkit-border-radius: 6px;
-		-moz-border-radius: 6px;
-		-o-border-radius: 6px;
-		border-radius: 6px;
-		padding: 10px 10px 20px 23px;
-		width: 98%;
-		outline: none;
-		bottom: 58px;
-		border: 0 none;
-		background: #f0efef;
-		margin: 14px 0;
-	}
-	.Success-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
-		-webkit-border-radius: 6px;
-		-moz-border-radius: 6px;
-		-o-border-radius: 6px;
-		border-radius: 6px;
-		padding: 10px 10px 20px 23px;
-		width: 98%;
-		outline: none;
-		border: 2px solid #8dc63f;
-		background: #f0efef;
-		margin: 17px 0;
-	}
-	.hide-sidebar {
-		display: block;
-	}
-	.tag-item {
-		padding-left: 22px;
-	}
-
-	.avatar-edit {
-		width: 42px;
-	}
-}
-
+/*----------------------portrait----------------*/
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
@@ -621,6 +555,9 @@ and (orientation : portrait)
 		width: 100%;
 	}
 	.breadcrumbs {
+		display: none;
+	}
+	.categories .categories-item .help {
 		display: none;
 	}
 	.section-title {
@@ -708,11 +645,119 @@ and (orientation : portrait)
 		display: block;
 	}
 	.tag-item {
-		padding-left: 10px;
+		padding-right: 11px;
 	}
 	body {
 		zoom: 50%;
 	}
 
 }
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width: 1023px)
+and (orientation : portrait) {
+	.main-wind-all {
+		width: 100%;
+	}
+	.breadcrumbs {
+		display: none;
+	}
+	.categories .categories-item .help {
+		display: none;
+	}
+	.avatar-ico {
+		width: 154px;
+		position: absolute;
+		top: -75px;
+		left: 0;
+	}
 
+	.avatar-link{
+		position: absolute;
+		top: -75px;
+		left: 110px;
+	}
+	.account-Success-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		position: relative;
+		padding: 10px 10px 13px 13px;
+		width: 100%;
+		bottom: 85px;
+		outline: none;
+		border: 2px solid #8dc63f;
+		background: #f0efef;
+		margin: 17px 0;
+	}
+	.district-phone {
+		position: relative;
+		bottom: 75px;
+	}
+	.district-input-phone{
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		width: 80%;
+		outline: none;
+		border:0 none;
+		background: #f0efef;
+		padding: 10px 10px 20px 23px;
+	}
+	.coutry-phone {
+		position: relative;
+		left: -50%;
+		bottom: 70px;
+	}
+	.coutry-input-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 10px 10px 20px 23px;
+		width: 98%;
+		outline: none;
+		bottom: 58px;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
+	}
+	.Success-input-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 10px 10px 20px 23px;
+		width: 98%;
+		outline: none;
+		border: 2px solid #8dc63f;
+		background: #f0efef;
+		margin: 17px 0;
+	}
+	.hide-sidebar {
+		display: block;
+	}
+	.tag-item {
+		padding-right: 35px;
+	}
+
+	.avatar-edit {
+		width: 42px;
+	}
+}
+@media only screen
+and (min-device-width: 1024px)
+and (orientation : portrait) {
+	body {
+		zoom: 50%;
+	}
+	.tag-item {
+		padding-right: 45px;
+	}
+}
