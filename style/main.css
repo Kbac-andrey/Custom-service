@@ -263,12 +263,18 @@ body {
 .avatar-link {
 	position: absolute;
 	top: -70px;
-	left: 300px;
+	left: 220px;
 }
 .avatar-ico {
 	position: absolute;
 	top: -80px;
 	left: 10px;
+	width: 308px;
+	height: 308px;
+}
+.avatar-edit {
+	width: 40px;
+	height: 40px;
 }
 .account-Success {
 	font: 12px 'HelveticaLTStd-Light', sans-serif;
