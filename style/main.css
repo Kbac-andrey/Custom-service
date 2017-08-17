@@ -331,15 +331,16 @@ body {
 }
 .account-arror-ico-pic {
 	position: absolute;
-	height: 37px;
-	top: 12px;
+	height: 35px;
+	top: 14px;
 	right: 0;
 	bottom: 0;
 	margin: 0 auto;
+	width: 32px;
 }
 .account-question {
 	position: absolute;
-	padding-top: 10px;
+	padding-top: 12px;
 	padding-left: 10px;
 }
 .account-question-ico {
@@ -385,11 +386,12 @@ body {
 }
 .tag-arror-ico-pic {
 	position: absolute;
-	height: 37px;
-	top: 12px;
+	height: 35px;
+	top: 14px;
 	right: 0;
 	bottom: 0;
 	margin: 0 auto;
+	width: 32px;
 }
 .tags-grup {
 	border-bottom: 1px solid #f0efef;
@@ -520,22 +522,33 @@ and (orientation : portrait) {
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
 		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
 		width: 49%;
 		outline: none;
-		border:0 none;
+		border: 0 none;
 		background: #f0efef;
-		padding: 10px 10px 20px 23px;
+		margin: 14px 0;
 	}
 	.account-arror-ico-pic{
 		position: absolute;
-		height: 60px;
-		top: 12px;
+		width: 60px;
+		height: 70px;
+		top: 14px;
+		right: 0;
+		bottom: 0;
+		margin: 0 auto
+	}
+	.account-question-ico {
+		width: 74px;
+	}
+	.tag-arror-ico-pic {
+		position: absolute;
+		width: 60px;
+		height: 70px;
+		top: 14px;
 		right: 0;
 		bottom: 0;
 		margin: 0 auto;
-	}
-	.account-question-ico {
-		width: 60px;
 	}
 	.coutry-phone {
 		position: relative;
@@ -548,7 +561,7 @@ and (orientation : portrait) {
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
 		border-radius: 6px;
-		padding: 10px 10px 20px 23px;
+		padding: 20px 10px 20px 23px;
 		width: 99%;
 		outline: none;
 		bottom: 58px;
@@ -562,12 +575,26 @@ and (orientation : portrait) {
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
 		border-radius: 6px;
-		padding: 10px 10px 20px 23px;
+		padding: 20px 10px 20px 23px;
 		width: 98%;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
 		margin: 17px 0;
+	}
+	.tags-input-design {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 69%;
+		outline: none;
+		bottom: 58px;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
 	}
 	.hide-sidebar {
 		display: block;
