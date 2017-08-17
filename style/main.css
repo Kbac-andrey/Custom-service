@@ -440,7 +440,7 @@ body {
 	background-color: #ff9900;
 }
 
-/*-----------@hide-sidebar for phone-------------*/
+/*-----------hide-sidebar for phone-------------*/
 .hide-container {
 	background-color: #44a4ca;
 	width: 100%;
@@ -474,7 +474,7 @@ body {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px)
-and (orientation : portrait) {
+ {
 	.main-wind-all {
 		width: 100%;
 	}
@@ -610,8 +610,7 @@ and (orientation : portrait) {
 
 @media only screen
 and (min-device-width : 768px)
-and (max-device-width: 1023px)
-and (orientation : portrait) {
+and (max-device-width: 1023px) {
 	.main-wind-all {
 		width: 100%;
 	}
