@@ -472,8 +472,7 @@ body {
 
 @media only screen
 and (min-device-width : 320px)
-and (max-device-width : 568px)
- {
+and (max-device-width : 568px) {
 	.main-wind-all {
 		width: 100%;
 	}
@@ -482,6 +481,9 @@ and (max-device-width : 568px)
 	}
 	.categories .categories-item .help {
 		display: none;
+	}
+	.categories-text {
+		padding-left: 0;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -496,6 +498,9 @@ and (max-device-width : 568px)
 		top: -65px;
 		left: 140px;
 	}
+	.head-row {
+		height: 90px;
+	}
 	.account-Success-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 		-webkit-border-radius: 6px;
@@ -503,13 +508,154 @@ and (max-device-width : 568px)
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		position: relative;
-		padding: 10px 10px 13px 13px;
+		padding: 20px 10px 20px 23px;
 		width: 60%;
 		bottom: 85px;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
+		margin: 5px 0;
+	}
+	.district-phone {
+		position: relative;
+		bottom: 75px;
+	}
+	.district-input-phone{
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 49%;
+		outline: none;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
+	}
+	.account-arror-ico-pic{
+		position: absolute;
+		width: 60px;
+		height: 70px;
+		top: 14px;
+		right: 0;
+		bottom: 0;
+		margin: 0 auto
+	}
+	.account-question-ico {
+		width: 74px;
+	}
+	.tag-arror-ico-pic {
+		position: absolute;
+		width: 60px;
+		height: 70px;
+		top: 14px;
+		right: 0;
+		bottom: 0;
+		margin: 0 auto;
+	}
+	.coutry-phone {
+		position: relative;
+		left: -50%;
+		bottom: 70px;
+	}
+	.coutry-input-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 99%;
+		outline: none;
+		bottom: 58px;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
+	}
+	.Success-input-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 98%;
+		outline: none;
+		border: 2px solid #8dc63f;
+		background: #f0efef;
 		margin: 17px 0;
+	}
+	.tags-input-design {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 69%;
+		outline: none;
+		bottom: 58px;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
+	}
+	.hide-sidebar {
+		display: block;
+	}
+	.tag-item {
+		padding-right: 35px;
+	}
+
+	.avatar-edit {
+		width: 40px;
+	}
+}
+@media only screen
+and (min-device-width : 569px)
+and (max-device-width : 767px) {
+	.main-wind-all {
+		width: 100%;
+	}
+	.breadcrumbs {
+		display: none;
+	}
+	.categories .categories-item .help {
+		display: none;
+	}
+	.categories-text {
+		padding-left: 0;
+	}
+	.avatar-ico {
+		position: absolute;
+		top: -75px;
+		left: 0;
+		width: 185px;
+		height: 180px;
+	}
+
+	.avatar-link{
+		position: absolute;
+		top: -65px;
+		left: 140px;
+	}
+	.head-row {
+		height: 90px;
+	}
+	.account-Success-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		position: relative;
+		padding: 20px 10px 20px 23px;
+		width: 60%;
+		bottom: 85px;
+		outline: none;
+		border: 2px solid #8dc63f;
+		background: #f0efef;
+		margin: 5px 0;
 	}
 	.district-phone {
 		position: relative;
@@ -610,6 +756,9 @@ and (max-device-width : 568px)
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width: 1023px) {
+	.main-wind-one {
+		width: 100%;
+	}
 	.main-wind-all {
 		width: 100%;
 	}
@@ -618,6 +767,9 @@ and (max-device-width: 1023px) {
 	}
 	.categories .categories-item .help {
 		display: none;
+	}
+	.categories-text {
+		padding-left: 0;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -632,6 +784,9 @@ and (max-device-width: 1023px) {
 		top: -65px;
 		left: 140px;
 	}
+	.head-row {
+		height: 90px;
+	}
 	.account-Success-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 		-webkit-border-radius: 6px;
@@ -639,13 +794,13 @@ and (max-device-width: 1023px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		position: relative;
-		padding: 10px 10px 13px 13px;
+		padding: 20px 10px 20px 23px;
 		width: 60%;
 		bottom: 85px;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
-		margin: 17px 0;
+		margin: 5px 0;
 	}
 	.district-phone {
 		position: relative;
@@ -657,22 +812,33 @@ and (max-device-width: 1023px) {
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
 		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
 		width: 49%;
 		outline: none;
-		border:0 none;
+		border: 0 none;
 		background: #f0efef;
-		padding: 10px 10px 20px 23px;
+		margin: 14px 0;
 	}
 	.account-arror-ico-pic{
 		position: absolute;
-		 height: 60px;
-		top: 12px;
+		width: 60px;
+		height: 70px;
+		top: 14px;
+		right: 0;
+		bottom: 0;
+		margin: 0 auto
+	}
+	.account-question-ico {
+		width: 74px;
+	}
+	.tag-arror-ico-pic {
+		position: absolute;
+		width: 60px;
+		height: 70px;
+		top: 14px;
 		right: 0;
 		bottom: 0;
 		margin: 0 auto;
-	}
-	.account-question-ico {
-		width: 60px;
 	}
 	.coutry-phone {
 		position: relative;
@@ -685,7 +851,7 @@ and (max-device-width: 1023px) {
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
 		border-radius: 6px;
-		padding: 10px 10px 20px 23px;
+		padding: 20px 10px 20px 23px;
 		width: 99%;
 		outline: none;
 		bottom: 58px;
@@ -699,12 +865,26 @@ and (max-device-width: 1023px) {
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
 		border-radius: 6px;
-		padding: 10px 10px 20px 23px;
+		padding: 20px 10px 20px 23px;
 		width: 98%;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
 		margin: 17px 0;
+	}
+	.tags-input-design {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 69%;
+		outline: none;
+		bottom: 58px;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
 	}
 	.hide-sidebar {
 		display: block;
