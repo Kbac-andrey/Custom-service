@@ -195,7 +195,7 @@ body {
 .categories-ico {
 	display: inline-block;
 	vertical-align: middle;
-	width: 10%;
+	width: 8%;
 }
 .home-active:hover {
 	background: url("image/sidebar/home-active.png")  no-repeat;
@@ -211,7 +211,7 @@ body {
 }
 .categories-amount {
 	position: absolute;
-	font: 13px 'HelveticaLTStd-Light', sans-serif;
+	font: 15px 'HelveticaLTStd-Light', sans-serif;
 	color: #ffffff;
 	top: 50%;
 	line-height: 0;
