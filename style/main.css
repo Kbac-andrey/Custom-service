@@ -300,19 +300,19 @@ body {
 	color: black;
 	text-overflow:ellipsis;
 }
-.account-arror:-moz-placeholder {
+.account-error:-moz-placeholder {
 	color: black;
 	text-overflow:ellipsis;
 }
-.account-arror::-webkit-input-placeholder {
+.account-error::-webkit-input-placeholder {
 	color: black;
 	text-overflow:ellipsis;
 }
-.aaccount-arror:-ms-input-placeholder {
+.aaccount-error:-ms-input-placeholder {
 	color: black;
 	text-overflow:ellipsis;
 }
-.account-arror {
+.account-error {
 	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -325,10 +325,10 @@ body {
 	background: #f0efef;
 	margin: 14px 0;
 }
-.account-arror-ico{
+.account-error-ico{
 	position: absolute;
 }
-.account-arror-ico-pic {
+.account-error-ico-pic {
 	position: absolute;
 	height: 35px;
 	top: 14px;
@@ -374,7 +374,7 @@ body {
 	color: #ffffff;
 	border:  0 none;
 }
-/*-----------change-accoun-------------*/
+/*-----------change-account-------------*/
 .password-title-text{
 	font: 32px 'HelveticaLTStd-Light', sans-serif;
 	color: #000000;
@@ -383,7 +383,7 @@ body {
 .tag-accoun{
 	margin-top: 20px;
 }
-.tag-arror-ico-pic {
+.tag-error-ico-pic {
 	position: absolute;
 	height: 35px;
 	top: 14px;
@@ -392,7 +392,7 @@ body {
 	margin: 0 auto;
 	width: 32px;
 }
-.tags-grup {
+.tags-group {
 	border-bottom: 1px solid #f0efef;
 	padding-bottom: 25px;
 	margin-bottom: 19px;
@@ -536,7 +536,7 @@ and (max-device-width : 568px) {
 		background: #f0efef;
 		margin: 14px 0;
 	}
-	.account-arror-ico-pic{
+	.account-error-ico-pic{
 		position: absolute;
 		width: 60px;
 		height: 70px;
@@ -548,7 +548,7 @@ and (max-device-width : 568px) {
 	.account-question-ico {
 		width: 74px;
 	}
-	.tag-arror-ico-pic {
+	.tag-error-ico-pic {
 		position: absolute;
 		width: 60px;
 		height: 70px;
@@ -557,12 +557,12 @@ and (max-device-width : 568px) {
 		bottom: 0;
 		margin: 0 auto;
 	}
-	.coutry-phone {
+	.country-phone {
 		position: relative;
 		left: -50%;
 		bottom: 70px;
 	}
-	.coutry-input-phone {
+	.country-input-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
@@ -679,7 +679,7 @@ and (max-device-width : 767px) {
 		background: #f0efef;
 		margin: 14px 0;
 	}
-	.account-arror-ico-pic{
+	.account-error-ico-pic{
 		position: absolute;
 		width: 60px;
 		height: 70px;
@@ -691,7 +691,7 @@ and (max-device-width : 767px) {
 	.account-question-ico {
 		width: 74px;
 	}
-	.tag-arror-ico-pic {
+	.tag-error-ico-pic {
 		position: absolute;
 		width: 60px;
 		height: 70px;
@@ -700,12 +700,12 @@ and (max-device-width : 767px) {
 		bottom: 0;
 		margin: 0 auto;
 	}
-	.coutry-phone {
+	.country-phone {
 		position: relative;
 		left: -50%;
 		bottom: 70px;
 	}
-	.coutry-input-phone {
+	.country-input-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
@@ -826,7 +826,7 @@ and (max-device-width: 1023px) {
 		background: #f0efef;
 		margin: 14px 0;
 	}
-	.account-arror-ico-pic{
+	.account-error-ico-pic{
 		position: absolute;
 		width: 60px;
 		height: 70px;
@@ -838,7 +838,7 @@ and (max-device-width: 1023px) {
 	.account-question-ico {
 		width: 74px;
 	}
-	.tag-arror-ico-pic {
+	.tag-error-ico-pic {
 		position: absolute;
 		width: 60px;
 		height: 70px;
@@ -847,12 +847,12 @@ and (max-device-width: 1023px) {
 		bottom: 0;
 		margin: 0 auto;
 	}
-	.coutry-phone {
+	.country-phone {
 		position: relative;
 		left: -50%;
 		bottom: 70px;
 	}
-	.coutry-input-phone {
+	.country-input-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
