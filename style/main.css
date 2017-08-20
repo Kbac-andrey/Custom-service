@@ -469,8 +469,6 @@ body {
 }
 
 /*!*-----------@mediaqueries-------------*!*/
-
-
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -485,6 +483,11 @@ and (max-device-width : 568px) {
 	}
 	.categories-text {
 		padding-left: 0;
+		font: 40px 'HelveticaNeueLTStd-Roman', sans-serif;
+	}
+	.categories-amount {
+		top: 25%;
+		font: 40px 'HelveticaLTStd-Light', sans-serif;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -502,6 +505,9 @@ and (max-device-width : 568px) {
 	.avatar-edit {
 		width: 40px;
 	}
+	.section-title {
+			 display: none;
+		 }
 	.head-row {
 		height: 90px;
 	}
@@ -609,6 +615,9 @@ and (max-device-width : 568px) {
 	}
 	.tag-item {
 		padding-right: 35px;
+	}
+	.change-password-title {
+		font: 32px 'HelveticaLTStd-Light', sans-serif;
 	}
 	.hide-error {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -628,6 +637,11 @@ and (max-device-width : 767px) {
 	}
 	.categories-text {
 		padding-left: 0;
+		font: 40px 'HelveticaNeueLTStd-Roman', sans-serif;
+	}
+	.categories-amount {
+		top: 25%;
+		font: 40px 'HelveticaLTStd-Light', sans-serif;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -644,6 +658,9 @@ and (max-device-width : 767px) {
 	}
 	.avatar-edit {
 		width: 40px;
+	}
+	.section-title {
+		display: none;
 	}
 	.head-row {
 		height: 90px;
@@ -752,6 +769,9 @@ and (max-device-width : 767px) {
 	}
 	.tag-item {
 		padding-right: 35px;
+	}
+	.change-password-title {
+		font: 32px 'HelveticaLTStd-Light', sans-serif;
 	}
 	.hide-error {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -775,6 +795,11 @@ and (max-device-width: 1023px) {
 	}
 	.categories-text {
 		padding-left: 0;
+		font: 40px 'HelveticaNeueLTStd-Roman', sans-serif;
+	}
+	.categories-amount {
+		top: 20%;
+		font: 40px 'HelveticaLTStd-Light', sans-serif;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -791,6 +816,9 @@ and (max-device-width: 1023px) {
 	}
 	.avatar-edit {
 		width: 40px;
+	}
+	.section-title {
+		display: none;
 	}
 	.head-row {
 		height: 90px;
@@ -899,6 +927,9 @@ and (max-device-width: 1023px) {
 	}
 	.tag-item {
 		padding-right: 35px;
+	}
+	.change-password-title {
+		font: 32px 'HelveticaLTStd-Light', sans-serif;
 	}
 	.hide-error {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
