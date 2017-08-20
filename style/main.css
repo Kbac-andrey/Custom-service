@@ -45,6 +45,7 @@ html{
 body {
 	height: 100%;
 	background-color: #31b1d3;
+	min-width: 320px;
 	width: 100%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
