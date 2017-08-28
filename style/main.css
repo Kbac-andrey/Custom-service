@@ -756,7 +756,6 @@ and (max-device-width : 767px) {
 		width: 185px;
 		height: 180px;
 	}
-
 	.avatar-link{
 		position: absolute;
 		top: -65px;
@@ -912,7 +911,6 @@ and (max-device-width : 767px) {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 	}
 }
-
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width: 991px) {
@@ -1099,7 +1097,6 @@ and (max-device-width: 991px) {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 	}
 }
-
 @media only screen
 and (min-device-width : 992px)
 and (max-device-width: 1023px) {
@@ -1130,7 +1127,6 @@ and (max-device-width: 1023px) {
 		width: 300px;
 		height: 300px;
 	}
-
 	.avatar-link{
 		position: absolute;
 		top: -70px;
@@ -1207,7 +1203,6 @@ and (max-device-width: 1023px) {
 	.tag-account {
 		margin-top: 38px;
 	}
-
 	.tag-error-ico-pic {
 		position: absolute;
 		width: 60px;
@@ -1234,7 +1229,6 @@ and (max-device-width: 1023px) {
 		height: 30px;
 		width: 6px;
 	}
-
 	.country-phone {
 		position: relative;
 		left: -35%;
@@ -1294,10 +1288,9 @@ and (max-device-width: 1023px) {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 	}
 }
-
-
 @media only screen
-and (max-device-width: 1024px){
+and (min-device-width: 1024px)
+and (max-device-width : 1300px){
 	.breadcrumbs {
 		display: none;
 	}
