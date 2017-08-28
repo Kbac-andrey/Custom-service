@@ -167,7 +167,7 @@ body {
 	background: url("image/sidebar/help-active.png")left center no-repeat;
 }
 .categories .categories-item .home {
-	background: url("image/sidebar/home.png")left center no-repeat;
+	/*background: url("image/sidebar/home.png")left center no-repeat;*/
 }
 .categories .categories-item .chat {
 	background: url("image/sidebar/chat.png")left center no-repeat;
@@ -326,17 +326,67 @@ body {
 	background: #f0efef;
 	margin: 14px 0;
 }
-.account-error-ico{
-	position: absolute;
+.group-settings {
+	position: relative;
 }
-.account-error-ico-pic {
+.district-phone {
+	position: relative;
+}
+.account-error-district-ico{
 	position: absolute;
 	height: 35px;
-	top: 14px;
-	right: 0;
-	bottom: 0;
+	top: 13px;
+	right: 96px;
+	bottom: 1px;
 	margin: 0 auto;
 	width: 32px;
+	background-color: red;
+}
+.account-error-district-ico:hover {
+	cursor: pointer;
+}
+.account-error-district-ico:before, .account-error-district-ico:after {
+	position: absolute;
+	top: 9px;
+	left: 15px;
+	content: ' ';
+	height: 17px;
+	width: 4px;
+	background-color: #ffffff;
+}
+.account-error-district-ico:before {
+	transform: rotate(45deg);
+}
+.account-error-district-ico:after {
+	transform: rotate(-45deg);
+}
+.account-error-country-ico{
+	position: absolute;
+	height: 35px;
+	top: 13px;
+	right: 96px;
+	bottom: 1px;
+	margin: 0 auto;
+	width: 32px;
+	background-color: red;
+}
+.account-error-country-ico:hover {
+	cursor: pointer;
+}
+.account-error-country-ico:before, .account-error-country-ico:after {
+	position: absolute;
+	top: 9px;
+	left: 15px;
+	content: ' ';
+	height: 17px;
+	width: 4px;
+	background-color: #ffffff;
+}
+.account-error-country-ico:before {
+	transform: rotate(45deg);
+}
+.account-error-country-ico:after {
+	transform: rotate(-45deg);
 }
 .account-question {
 	position: absolute;
@@ -381,7 +431,34 @@ body {
 	color: #000000;
 	padding: 28px 0 21px 0;
 }
-.tag-accoun{
+.account-error-add{
+	position: absolute;
+	height: 35px;
+	top: 13px;
+	right: 90px;
+	margin: 0 auto;
+	width: 32px;
+	background-color: #00b7e4;
+}
+.account-error-add:hover {
+	cursor: pointer;
+}
+.account-error-add:before, .account-error-add:after {
+	position: absolute;
+	top: 9px;
+	left: 15px;
+	content: ' ';
+	height: 17px;
+	width: 4px;
+	background-color: #ffffff;
+}
+.account-error-add:before {
+	transform: rotate(90deg);
+}
+.account-error-add:after {
+	transform: rotate(-180deg);
+}
+.tag-account{
 	margin-top: 20px;
 }
 .tag-error-ico-pic {
@@ -543,14 +620,29 @@ and (max-device-width : 568px) {
 		background: #f0efef;
 		margin: 14px 0;
 	}
-	.account-error-ico-pic{
-		position: absolute;
-		width: 60px;
-		height: 70px;
-		top: 14px;
-		right: 0;
-		bottom: 0;
-		margin: 0 auto
+	.account-error-district-ico {
+		height: 69px;
+		top: 13px;
+		right: 319px;
+		width: 64px;
+	}
+	.account-error-district-ico:before, .account-error-district-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
+	}
+	.account-error-country-ico{
+		height: 69px;
+		top: 13px;
+		right: 7px;
+		width: 64px;
+	}
+	.account-error-country-ico:before, .account-error-country-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
 	}
 	.account-question-ico {
 		width: 74px;
@@ -563,6 +655,20 @@ and (max-device-width : 568px) {
 		right: 0;
 		bottom: 0;
 		margin: 0 auto;
+	}
+	.account-error-add{
+		height: 69px;
+		top: 13px;
+		right: 286px;
+		width: 64px;
+	}
+	.account-error-add:before, .account-error-add:after {
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		content: ' ';
+		height: 30px;
+		width: 6px;
 	}
 	.country-phone {
 		position: relative;
@@ -603,7 +709,7 @@ and (max-device-width : 568px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 69%;
+		width: 68%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
@@ -697,14 +803,29 @@ and (max-device-width : 767px) {
 		background: #f0efef;
 		margin: 14px 0;
 	}
-	.account-error-ico-pic{
-		position: absolute;
-		width: 60px;
-		height: 70px;
+	.account-error-district-ico {
+		height: 69px;
 		top: 14px;
-		right: 0;
-		bottom: 0;
-		margin: 0 auto
+		right: 319px;
+		width: 64px;
+	}
+	.account-error-district-ico:before, .account-error-district-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
+	}
+	.account-error-country-ico{
+		height: 69px;
+		top: 14px;
+		right: 7px;
+		width: 64px;
+	}
+	.account-error-country-ico:before, .account-error-country-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
 	}
 	.account-question-ico {
 		width: 74px;
@@ -713,10 +834,24 @@ and (max-device-width : 767px) {
 		position: absolute;
 		width: 60px;
 		height: 70px;
-		top: 14px;
+		top: 13px;
 		right: 0;
 		bottom: 0;
 		margin: 0 auto;
+	}
+	.account-error-add{
+		height: 69px;
+		top: 14px;
+		right: 276px;
+		width: 64px;
+	}
+	.account-error-add:before, .account-error-add:after {
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		content: ' ';
+		height: 30px;
+		width: 6px;
 	}
 	.country-phone {
 		position: relative;
@@ -780,7 +915,7 @@ and (max-device-width : 767px) {
 
 @media only screen
 and (min-device-width : 768px)
-and (max-device-width: 1023px) {
+and (max-device-width: 991px) {
 	.main-wind-one {
 		width: 100%;
 	}
@@ -855,14 +990,29 @@ and (max-device-width: 1023px) {
 		background: #f0efef;
 		margin: 14px 0;
 	}
-	.account-error-ico-pic{
-		position: absolute;
-		width: 60px;
-		height: 70px;
+	.account-error-district-ico {
+		height: 69px;
 		top: 14px;
-		right: 0;
-		bottom: 0;
-		margin: 0 auto
+		right: 319px;
+		width: 64px;
+	}
+	.account-error-district-ico:before, .account-error-district-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
+	}
+	.account-error-country-ico{
+		height: 69px;
+		top: 14px;
+		right: 7px;
+		width: 64px;
+	}
+	.account-error-country-ico:before, .account-error-country-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
 	}
 	.account-question-ico {
 		width: 74px;
@@ -875,6 +1025,20 @@ and (max-device-width: 1023px) {
 		right: 0;
 		bottom: 0;
 		margin: 0 auto;
+	}
+	.account-error-add{
+		height: 69px;
+		top: 14px;
+		right: 276px;
+		width: 64px;
+	}
+	.account-error-add:before, .account-error-add:after {
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		content: ' ';
+		height: 30px;
+		width: 6px;
 	}
 	.country-phone {
 		position: relative;
@@ -935,9 +1099,221 @@ and (max-device-width: 1023px) {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
 	}
 }
+
 @media only screen
-and (min-device-width: 1024px){
+and (min-device-width : 992px)
+and (max-device-width: 1023px) {
+	.main-wind-one {
+		width: 100%;
+	}
+	.main-wind-all {
+		width: 100%;
+	}
 	.breadcrumbs {
 		display: none;
+	}
+	.categories .categories-item .help {
+		display: none;
+	}
+	.categories-text {
+		padding-left: 0;
+		font: 40px 'HelveticaNeueLTStd-Roman', sans-serif;
+	}
+	.categories-amount {
+		top: 20%;
+		font: 40px 'HelveticaLTStd-Light', sans-serif;
+	}
+	.avatar-ico {
+		position: absolute;
+		top: -75px;
+		left: 0;
+		width: 300px;
+		height: 300px;
+	}
+
+	.avatar-link{
+		position: absolute;
+		top: -70px;
+		left: 190px;
+	}
+	.avatar-edit {
+		width: 40px;
+	}
+	.section-title {
+		display: none;
+	}
+	.head-row {
+		height: 90px;
+	}
+	.account-Success-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		position: relative;
+		padding: 20px 10px 20px 23px;
+		width: 63%;
+		bottom: 85px;
+		outline: none;
+		border: 2px solid #8dc63f;
+		background: #f0efef;
+		margin: 5px 0;
+	}
+	.district-phone {
+		position: relative;
+		bottom: 75px;
+	}
+	.district-input-phone{
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		outline: none;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
+		width: 63%;
+	}
+	.account-error-district-ico {
+		height: 69px;
+		top: 14px;
+		right: 170px;
+		width: 64px;
+	}
+	.account-error-district-ico:before, .account-error-district-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
+	}
+	.account-error-country-ico{
+		height: 69px;
+		top: 14px;
+		right: 6px;
+		width: 64px;
+	}
+	.account-error-country-ico:before, .account-error-country-ico:after {
+		top: 20px;
+		left: 30px;
+		height: 30px;
+		width: 6px;
+	}
+	.account-question-ico {
+		width: 74px;
+	}
+	.tag-account {
+		margin-top: 38px;
+	}
+
+	.tag-error-ico-pic {
+		position: absolute;
+		width: 60px;
+		height: 70px;
+		top: 14px;
+		right: 0;
+		bottom: 0;
+		margin: 0 auto;
+	}
+	.tags-group {
+		padding-bottom: 70px;
+	}
+	.account-error-add{
+		height: 69px;
+		top: 14px;
+		right: 136px;
+		width: 64px;
+	}
+	.account-error-add:before, .account-error-add:after {
+		position: absolute;
+		top: 20px;
+		left: 30px;
+		content: ' ';
+		height: 30px;
+		width: 6px;
+	}
+
+	.country-phone {
+		position: relative;
+		left: -35%;
+		bottom: 70px;
+	}
+	.country-input-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 99%;
+		outline: none;
+		bottom: 58px;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
+	}
+	.Success-input-phone {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 98%;
+		outline: none;
+		border: 2px solid #8dc63f;
+		background: #f0efef;
+		margin: 17px 0;
+	}
+	.tags-input-design {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		-o-border-radius: 6px;
+		border-radius: 6px;
+		padding: 20px 10px 20px 23px;
+		width: 69%;
+		outline: none;
+		bottom: 58px;
+		border: 0 none;
+		background: #f0efef;
+		margin: 14px 0;
+	}
+	.hide-sidebar {
+		display: block;
+	}
+	.tag-item {
+		padding-right: 30px;
+	}
+	.change-password-title {
+		font: 32px 'HelveticaLTStd-Light', sans-serif;
+	}
+	.hide-error {
+		font: 24px 'HelveticaLTStd-Light', sans-serif;
+	}
+}
+
+
+@media only screen
+and (max-device-width: 1024px){
+	.breadcrumbs {
+		display: none;
+	}
+	.categories-text {
+		padding-left: 35px;
+	}
+	.account-error-district-ico {
+		top: 14px;
+		right: 72px;
+	}
+	.account-error-country-ico{
+		top: 14px;
+		right: 72px;
+	}
+	.account-error-add {
+		top: 14px;
+		right: 65px;
 	}
 }
