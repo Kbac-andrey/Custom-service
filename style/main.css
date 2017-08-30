@@ -49,6 +49,8 @@ body {
 	width: 100%;
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
+	font-family: "HelveticaLTStd-Light", sans-serif;
+	font-size: 12px;
 }
 
 #wraper {
@@ -78,7 +80,7 @@ body {
 }
 .header-menu {
 	float: right;
-	font: 32px 'HelveticaLTStd-Light', sans-serif;
+	font-size: 32px;
 	text-transform: capitalize;
 	color: #fffffe;
 }
@@ -138,7 +140,6 @@ body {
 .categories-link {
 	display: block;
 	padding: 22px 0;
-	font-size: 0;
 }
 .categories .categories-item:hover {
 	background-color: #f8f9fb;
@@ -212,7 +213,7 @@ body {
 }
 .categories-amount {
 	position: absolute;
-	font: 15px 'HelveticaLTStd-Light', sans-serif;
+	font-size: 15px;
 	color: #ffffff;
 	top: 50%;
 	line-height: 0;
@@ -232,16 +233,6 @@ body {
 .portfolio {
 	border-top: 80px solid #ff9900;
 	position: relative;
-}
-.fature-item {
-	position: absolute;
-	height: 408px;
-	width: 408px;
-	background: url("image/settings/avatar.png");
-	border: 0 none;
-	border-radius: 50%;
-	z-index: 2;
-	top: 50%;
 }
 /*-----------account-setting-------------*/
 .head-row {
@@ -277,7 +268,6 @@ body {
 	height: 40px;
 }
 .business-name {
-	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	-o-border-radius: 6px;
@@ -290,7 +280,6 @@ body {
 	margin: 17px 0;
 }
 .account-Success {
-	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	-o-border-radius: 6px;
@@ -327,7 +316,6 @@ body {
 	text-overflow:ellipsis;
 }
 .account-error {
-	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	-o-border-radius: 6px;
@@ -443,13 +431,13 @@ body {
 	vertical-align: middle;
 	display: inline-block;
 	text-decoration: none;
-	font: 24px 'HelveticaLTStd-Light', sans-serif;
+	font-size: 24px;
 	color: #ffffff;
 	border:  0 none;
 }
 /*-----------change-account-------------*/
 .password-title-text{
-	font: 32px 'HelveticaLTStd-Light', sans-serif;
+	font-size: 32px;
 	color: #000000;
 	padding: 28px 0 21px 0;
 }
@@ -502,7 +490,6 @@ body {
 	vertical-align: middle;
 }
 .tag-link {
-	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	color: #000;
 	vertical-align: middle;
 }
@@ -528,7 +515,7 @@ body {
 	position: relative;
 }
 .change-password-title {
-	font: 16px 'HelveticaLTStd-Light', sans-serif;
+	font-size: 16px;
 	color: #000;
 	margin-top: 0;
 	font-weight: normal;
@@ -538,7 +525,6 @@ body {
 	position: relative;
 }
 .tags-input-design{
-	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	-o-border-radius: 6px;
@@ -553,7 +539,6 @@ body {
 
 .hide-error {
 	color: #ff0000;
-	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	margin-bottom: 100px;
 }
 .chane-btn {
@@ -608,7 +593,7 @@ and (max-device-width : 568px) {
 	}
 	.categories-amount {
 		top: 25%;
-		font: 40px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 40px;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -627,13 +612,13 @@ and (max-device-width : 568px) {
 		width: 40px;
 	}
 	.section-title {
-			 display: none;
+		 display: none;
 		 }
 	.head-row {
 		height: 90px;
 	}
 	.account-Success-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -653,7 +638,7 @@ and (max-device-width : 568px) {
 		width: 100%;
 	}
 	.district-input-phone{
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -738,7 +723,7 @@ and (max-device-width : 568px) {
 		width: 100%;
 	}
 	.country-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -752,7 +737,7 @@ and (max-device-width : 568px) {
 		margin: 14px 0;
 	}
 	.Success-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -765,7 +750,7 @@ and (max-device-width : 568px) {
 		margin: 17px 0;
 	}
 	.tags-input-design {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -797,10 +782,10 @@ and (max-device-width : 568px) {
 		padding-right: 35px;
 	}
 	.change-password-title {
-		font: 32px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 32px;
 	}
 	.hide-error {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 	}
 }
 @media only screen
@@ -821,7 +806,7 @@ and (max-device-width : 767px) {
 	}
 	.categories-amount {
 		top: 25%;
-		font: 40px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 40px;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -846,7 +831,7 @@ and (max-device-width : 767px) {
 		height: 90px;
 	}
 	.account-Success-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -866,7 +851,7 @@ and (max-device-width : 767px) {
 		width: 100%;
 	}
 	.district-input-phone{
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -951,7 +936,7 @@ and (max-device-width : 767px) {
 		width: 100%;
 	}
 	.country-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -965,7 +950,7 @@ and (max-device-width : 767px) {
 		margin: 14px 0;
 	}
 	.Success-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -978,7 +963,7 @@ and (max-device-width : 767px) {
 		margin: 17px 0;
 	}
 	.tags-input-design {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1010,10 +995,10 @@ and (max-device-width : 767px) {
 		padding-right: 35px;
 	}
 	.change-password-title {
-		font: 32px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 32px;
 	}
 	.hide-error {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 	}
 }
 @media only screen
@@ -1034,7 +1019,7 @@ and (max-device-width: 991px) {
 	}
 	.categories-amount {
 		top: 25%;
-		font: 40px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 40px;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -1059,7 +1044,7 @@ and (max-device-width: 991px) {
 		height: 90px;
 	}
 	.account-Success-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1079,7 +1064,7 @@ and (max-device-width: 991px) {
 		width: 100%;
 	}
 	.district-input-phone{
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1164,7 +1149,7 @@ and (max-device-width: 991px) {
 		width: 100%;
 	}
 	.country-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1178,7 +1163,7 @@ and (max-device-width: 991px) {
 		margin: 14px 0;
 	}
 	.Success-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1191,7 +1176,7 @@ and (max-device-width: 991px) {
 		margin: 17px 0;
 	}
 	.tags-input-design {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1223,10 +1208,10 @@ and (max-device-width: 991px) {
 		padding-right: 35px;
 	}
 	.change-password-title {
-		font: 32px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 32px;
 	}
 	.hide-error {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 	}
 }
 @media only screen
@@ -1250,7 +1235,7 @@ and (max-device-width: 1023px) {
 	}
 	.categories-amount {
 		top: 20%;
-		font: 40px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 40px;
 	}
 	.avatar-ico {
 		position: absolute;
@@ -1274,7 +1259,7 @@ and (max-device-width: 1023px) {
 		height: 90px;
 	}
 	.account-Success-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1293,7 +1278,7 @@ and (max-device-width: 1023px) {
 		bottom: 75px;
 	}
 	.district-input-phone{
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1371,7 +1356,7 @@ and (max-device-width: 1023px) {
 		bottom: 70px;
 	}
 	.country-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1385,7 +1370,7 @@ and (max-device-width: 1023px) {
 		margin: 14px 0;
 	}
 	.Success-input-phone {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1401,7 +1386,7 @@ and (max-device-width: 1023px) {
 		width: 85%;
 	}
 	.tags-input-design {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 		-webkit-border-radius: 6px;
 		-moz-border-radius: 6px;
 		-o-border-radius: 6px;
@@ -1421,10 +1406,10 @@ and (max-device-width: 1023px) {
 		padding-right: 30px;
 	}
 	.change-password-title {
-		font: 32px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 32px;
 	}
 	.hide-error {
-		font: 24px 'HelveticaLTStd-Light', sans-serif;
+		font-size: 24px;
 	}
 }
 @media only screen
