@@ -276,7 +276,7 @@ body {
 	width: 40px;
 	height: 40px;
 }
-.account-Success {
+.business-name {
 	font: 12px 'HelveticaLTStd-Light', sans-serif;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -284,6 +284,19 @@ body {
 	border-radius: 6px;
 	padding: 10px 10px 10px 23px;
 	width: 80%;
+	outline: none;
+	border:  2px solid #8dc63f;
+	background: #f0efef;
+	margin: 17px 0;
+}
+.account-Success {
+	font: 12px 'HelveticaLTStd-Light', sans-serif;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px 10px 10px 23px;
+	width: 100%;
 	outline: none;
 	border:  2px solid #8dc63f;
 	background: #f0efef;
@@ -320,7 +333,7 @@ body {
 	-o-border-radius: 6px;
 	border-radius: 6px;
 	padding: 10px 10px 10px 23px;
-	width: 80%;
+	width: 100%;
 	outline: none;
 	border:0 none;
 	background: #f0efef;
@@ -328,15 +341,20 @@ body {
 }
 .group-settings {
 	position: relative;
+	width: 80%;
 }
 .district-phone {
 	position: relative;
+	width: 80%;
+}
+.country-phone {
+	width: 80%;
 }
 .account-error-district-ico{
 	position: absolute;
 	height: 35px;
 	top: 13px;
-	right: 96px;
+	right: 0;
 	bottom: 1px;
 	margin: 0 auto;
 	width: 32px;
@@ -364,7 +382,7 @@ body {
 	position: absolute;
 	height: 35px;
 	top: 13px;
-	right: 96px;
+	right: 0;
 	bottom: 1px;
 	margin: 0 auto;
 	width: 32px;
@@ -388,10 +406,14 @@ body {
 .account-error-country-ico:after {
 	transform: rotate(-45deg);
 }
+.question {
+	display: inline-block;
+}
 .account-question {
 	position: absolute;
 	padding-top: 12px;
-	padding-left: 10px;
+	right: -65px;
+	top: 0;
 }
 .account-question-ico {
 	width: 40px;
@@ -435,7 +457,7 @@ body {
 	position: absolute;
 	height: 35px;
 	top: 13px;
-	right: 90px;
+	right: 0;
 	margin: 0 auto;
 	width: 32px;
 	background-color: #00b7e4;
@@ -501,12 +523,34 @@ body {
 	height: 20px;
 	vertical-align: middle;
 }
+.group-obligatory {
+	width: 80%;
+	position: relative;
+}
 .change-password-title {
 	font: 16px 'HelveticaLTStd-Light', sans-serif;
 	color: #000;
 	margin-top: 0;
 	font-weight: normal;
 }
+.group-change-password {
+	width: 80%;
+	position: relative;
+}
+.tags-input-design{
+	font: 12px 'HelveticaLTStd-Light', sans-serif;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	padding: 10px 10px 10px 23px;
+	width: 100%;
+	outline: none;
+	border: 0 none;
+	background: #f0efef;
+	margin: 14px 0;
+}
+
 .hide-error {
 	color: #ff0000;
 	font: 12px 'HelveticaLTStd-Light', sans-serif;
@@ -596,7 +640,7 @@ and (max-device-width : 568px) {
 		border-radius: 6px;
 		position: relative;
 		padding: 20px 10px 20px 23px;
-		width: 60%;
+		width: 95%;
 		bottom: 85px;
 		outline: none;
 		border: 2px solid #8dc63f;
@@ -606,6 +650,7 @@ and (max-device-width : 568px) {
 	.district-phone {
 		position: relative;
 		bottom: 75px;
+		width: 100%;
 	}
 	.district-input-phone{
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -614,7 +659,7 @@ and (max-device-width : 568px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 49%;
+		width: 80%;
 		outline: none;
 		border: 0 none;
 		background: #f0efef;
@@ -623,7 +668,7 @@ and (max-device-width : 568px) {
 	.account-error-district-ico {
 		height: 69px;
 		top: 13px;
-		right: 319px;
+		right: 128px;
 		width: 64px;
 	}
 	.account-error-district-ico:before, .account-error-district-ico:after {
@@ -635,7 +680,7 @@ and (max-device-width : 568px) {
 	.account-error-country-ico{
 		height: 69px;
 		top: 13px;
-		right: 7px;
+		right: -183px;
 		width: 64px;
 	}
 	.account-error-country-ico:before, .account-error-country-ico:after {
@@ -644,8 +689,24 @@ and (max-device-width : 568px) {
 		height: 30px;
 		width: 6px;
 	}
+	.account-question-state {
+		position: absolute;
+		padding-top: 12px;
+		right: 30px;
+		top: 0;
+	}
+	.account-question-all {
+		position: absolute;
+		padding-top: 12px;
+		right: -283px;
+		top: 0;
+	}
 	.account-question-ico {
 		width: 74px;
+	}
+	.group-with-input-tags {
+		position: relative;
+		width: 90%;
 	}
 	.tag-error-ico-pic {
 		position: absolute;
@@ -659,7 +720,7 @@ and (max-device-width : 568px) {
 	.account-error-add{
 		height: 69px;
 		top: 13px;
-		right: 286px;
+		right: 0;
 		width: 64px;
 	}
 	.account-error-add:before, .account-error-add:after {
@@ -674,6 +735,7 @@ and (max-device-width : 568px) {
 		position: relative;
 		left: -50%;
 		bottom: 70px;
+		width: 100%;
 	}
 	.country-input-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -682,7 +744,7 @@ and (max-device-width : 568px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 99%;
+		width: 129%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
@@ -696,7 +758,7 @@ and (max-device-width : 568px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 98%;
+		width: 129%;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
@@ -709,12 +771,24 @@ and (max-device-width : 568px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 68%;
+		width: 100%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
 		background: #f0efef;
 		margin: 14px 0;
+	}
+	.tag-question {
+		position: absolute;
+		padding-top: 12px;
+		right: -93px;
+		top: 0;
+	}
+	.group-obligatory {
+		width: 90%;
+	}
+	.group-change-password {
+		width: 90%;
 	}
 	.hide-sidebar {
 		display: block;
@@ -756,6 +830,7 @@ and (max-device-width : 767px) {
 		width: 185px;
 		height: 180px;
 	}
+
 	.avatar-link{
 		position: absolute;
 		top: -65px;
@@ -778,7 +853,7 @@ and (max-device-width : 767px) {
 		border-radius: 6px;
 		position: relative;
 		padding: 20px 10px 20px 23px;
-		width: 60%;
+		width: 95%;
 		bottom: 85px;
 		outline: none;
 		border: 2px solid #8dc63f;
@@ -788,6 +863,7 @@ and (max-device-width : 767px) {
 	.district-phone {
 		position: relative;
 		bottom: 75px;
+		width: 100%;
 	}
 	.district-input-phone{
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -796,7 +872,7 @@ and (max-device-width : 767px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 49%;
+		width: 80%;
 		outline: none;
 		border: 0 none;
 		background: #f0efef;
@@ -804,8 +880,8 @@ and (max-device-width : 767px) {
 	}
 	.account-error-district-ico {
 		height: 69px;
-		top: 14px;
-		right: 319px;
+		top: 13px;
+		right: 128px;
 		width: 64px;
 	}
 	.account-error-district-ico:before, .account-error-district-ico:after {
@@ -816,8 +892,8 @@ and (max-device-width : 767px) {
 	}
 	.account-error-country-ico{
 		height: 69px;
-		top: 14px;
-		right: 7px;
+		top: 13px;
+		right: -183px;
 		width: 64px;
 	}
 	.account-error-country-ico:before, .account-error-country-ico:after {
@@ -826,22 +902,38 @@ and (max-device-width : 767px) {
 		height: 30px;
 		width: 6px;
 	}
+	.account-question-state {
+		position: absolute;
+		padding-top: 12px;
+		right: 30px;
+		top: 0;
+	}
+	.account-question-all {
+		position: absolute;
+		padding-top: 12px;
+		right: -283px;
+		top: 0;
+	}
 	.account-question-ico {
 		width: 74px;
+	}
+	.group-with-input-tags {
+		position: relative;
+		width: 90%;
 	}
 	.tag-error-ico-pic {
 		position: absolute;
 		width: 60px;
 		height: 70px;
-		top: 13px;
+		top: 14px;
 		right: 0;
 		bottom: 0;
 		margin: 0 auto;
 	}
 	.account-error-add{
 		height: 69px;
-		top: 14px;
-		right: 276px;
+		top: 13px;
+		right: 0;
 		width: 64px;
 	}
 	.account-error-add:before, .account-error-add:after {
@@ -856,6 +948,7 @@ and (max-device-width : 767px) {
 		position: relative;
 		left: -50%;
 		bottom: 70px;
+		width: 100%;
 	}
 	.country-input-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -864,7 +957,7 @@ and (max-device-width : 767px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 99%;
+		width: 129%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
@@ -878,7 +971,7 @@ and (max-device-width : 767px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 98%;
+		width: 129%;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
@@ -891,12 +984,24 @@ and (max-device-width : 767px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 69%;
+		width: 100%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
 		background: #f0efef;
 		margin: 14px 0;
+	}
+	.tag-question {
+		position: absolute;
+		padding-top: 12px;
+		right: -93px;
+		top: 0;
+	}
+	.group-obligatory {
+		width: 90%;
+	}
+	.group-change-password {
+		width: 90%;
 	}
 	.hide-sidebar {
 		display: block;
@@ -914,9 +1019,6 @@ and (max-device-width : 767px) {
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width: 991px) {
-	.main-wind-one {
-		width: 100%;
-	}
 	.main-wind-all {
 		width: 100%;
 	}
@@ -931,7 +1033,7 @@ and (max-device-width: 991px) {
 		font: 40px 'HelveticaNeueLTStd-Roman', sans-serif;
 	}
 	.categories-amount {
-		top: 20%;
+		top: 25%;
 		font: 40px 'HelveticaLTStd-Light', sans-serif;
 	}
 	.avatar-ico {
@@ -964,7 +1066,7 @@ and (max-device-width: 991px) {
 		border-radius: 6px;
 		position: relative;
 		padding: 20px 10px 20px 23px;
-		width: 60%;
+		width: 95%;
 		bottom: 85px;
 		outline: none;
 		border: 2px solid #8dc63f;
@@ -974,6 +1076,7 @@ and (max-device-width: 991px) {
 	.district-phone {
 		position: relative;
 		bottom: 75px;
+		width: 100%;
 	}
 	.district-input-phone{
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -982,7 +1085,7 @@ and (max-device-width: 991px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 49%;
+		width: 80%;
 		outline: none;
 		border: 0 none;
 		background: #f0efef;
@@ -990,8 +1093,8 @@ and (max-device-width: 991px) {
 	}
 	.account-error-district-ico {
 		height: 69px;
-		top: 14px;
-		right: 319px;
+		top: 13px;
+		right: 128px;
 		width: 64px;
 	}
 	.account-error-district-ico:before, .account-error-district-ico:after {
@@ -1002,8 +1105,8 @@ and (max-device-width: 991px) {
 	}
 	.account-error-country-ico{
 		height: 69px;
-		top: 14px;
-		right: 7px;
+		top: 13px;
+		right: -183px;
 		width: 64px;
 	}
 	.account-error-country-ico:before, .account-error-country-ico:after {
@@ -1012,8 +1115,24 @@ and (max-device-width: 991px) {
 		height: 30px;
 		width: 6px;
 	}
+	.account-question-state {
+		position: absolute;
+		padding-top: 12px;
+		right: 30px;
+		top: 0;
+	}
+	.account-question-all {
+		position: absolute;
+		padding-top: 12px;
+		right: -283px;
+		top: 0;
+	}
 	.account-question-ico {
 		width: 74px;
+	}
+	.group-with-input-tags {
+		position: relative;
+		width: 90%;
 	}
 	.tag-error-ico-pic {
 		position: absolute;
@@ -1026,8 +1145,8 @@ and (max-device-width: 991px) {
 	}
 	.account-error-add{
 		height: 69px;
-		top: 14px;
-		right: 276px;
+		top: 13px;
+		right: 0;
 		width: 64px;
 	}
 	.account-error-add:before, .account-error-add:after {
@@ -1042,6 +1161,7 @@ and (max-device-width: 991px) {
 		position: relative;
 		left: -50%;
 		bottom: 70px;
+		width: 100%;
 	}
 	.country-input-phone {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -1050,7 +1170,7 @@ and (max-device-width: 991px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 99%;
+		width: 129%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
@@ -1064,7 +1184,7 @@ and (max-device-width: 991px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 98%;
+		width: 129%;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
@@ -1077,12 +1197,24 @@ and (max-device-width: 991px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 69%;
+		width: 100%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
 		background: #f0efef;
 		margin: 14px 0;
+	}
+	.tag-question {
+		position: absolute;
+		padding-top: 12px;
+		right: -93px;
+		top: 0;
+	}
+	.group-obligatory {
+		width: 90%;
+	}
+	.group-change-password {
+		width: 90%;
 	}
 	.hide-sidebar {
 		display: block;
@@ -1149,7 +1281,7 @@ and (max-device-width: 1023px) {
 		border-radius: 6px;
 		position: relative;
 		padding: 20px 10px 20px 23px;
-		width: 63%;
+		width: 100%;
 		bottom: 85px;
 		outline: none;
 		border: 2px solid #8dc63f;
@@ -1171,12 +1303,12 @@ and (max-device-width: 1023px) {
 		border: 0 none;
 		background: #f0efef;
 		margin: 14px 0;
-		width: 63%;
+		width: 100%;
 	}
 	.account-error-district-ico {
 		height: 69px;
 		top: 14px;
-		right: 170px;
+		right: 0;
 		width: 64px;
 	}
 	.account-error-district-ico:before, .account-error-district-ico:after {
@@ -1188,7 +1320,7 @@ and (max-device-width: 1023px) {
 	.account-error-country-ico{
 		height: 69px;
 		top: 14px;
-		right: 6px;
+		right: 0;
 		width: 64px;
 	}
 	.account-error-country-ico:before, .account-error-country-ico:after {
@@ -1196,6 +1328,12 @@ and (max-device-width: 1023px) {
 		left: 30px;
 		height: 30px;
 		width: 6px;
+	}
+	.account-question {
+		position: absolute;
+		padding-top: 12px;
+		right: -95px;
+		top: 0;
 	}
 	.account-question-ico {
 		width: 74px;
@@ -1213,12 +1351,12 @@ and (max-device-width: 1023px) {
 		margin: 0 auto;
 	}
 	.tags-group {
-		padding-bottom: 70px;
+		padding-bottom: 65px;
 	}
 	.account-error-add{
 		height: 69px;
 		top: 14px;
-		right: 136px;
+		right: 0;
 		width: 64px;
 	}
 	.account-error-add:before, .account-error-add:after {
@@ -1230,8 +1368,6 @@ and (max-device-width: 1023px) {
 		width: 6px;
 	}
 	.country-phone {
-		position: relative;
-		left: -35%;
 		bottom: 70px;
 	}
 	.country-input-phone {
@@ -1241,7 +1377,7 @@ and (max-device-width: 1023px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 99%;
+		width: 100%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
@@ -1255,11 +1391,14 @@ and (max-device-width: 1023px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 98%;
+		width: 100%;
 		outline: none;
 		border: 2px solid #8dc63f;
 		background: #f0efef;
 		margin: 17px 0;
+	}
+	.group-change-password {
+		width: 85%;
 	}
 	.tags-input-design {
 		font: 24px 'HelveticaLTStd-Light', sans-serif;
@@ -1268,7 +1407,7 @@ and (max-device-width: 1023px) {
 		-o-border-radius: 6px;
 		border-radius: 6px;
 		padding: 20px 10px 20px 23px;
-		width: 69%;
+		width: 100%;
 		outline: none;
 		bottom: 58px;
 		border: 0 none;
@@ -1297,16 +1436,16 @@ and (max-device-width : 1300px){
 	.categories-text {
 		padding-left: 35px;
 	}
-	.account-error-district-ico {
-		top: 14px;
-		right: 72px;
-	}
-	.account-error-country-ico{
-		top: 14px;
-		right: 72px;
-	}
-	.account-error-add {
-		top: 14px;
-		right: 65px;
-	}
+	/*.account-error-district-ico {*/
+		/*top: 14px;*/
+		/*right: 72px;*/
+	/*}*/
+	/*.account-error-country-ico{*/
+		/*top: 14px;*/
+		/*right: 72px;*/
+	/*}*/
+	/*.account-error-add {*/
+		/*top: 14px;*/
+		/*right: 72px;*/
+	/*}*/
 }
