@@ -340,7 +340,7 @@ body {
 }
 .account-error-district-ico{
 	position: absolute;
-	height: 35px;
+	height: 37px;
 	top: 13px;
 	right: 0;
 	bottom: 1px;
@@ -368,7 +368,7 @@ body {
 }
 .account-error-country-ico{
 	position: absolute;
-	height: 35px;
+	height: 37px;
 	top: 13px;
 	right: 0;
 	bottom: 1px;
@@ -443,7 +443,7 @@ body {
 }
 .account-error-add{
 	position: absolute;
-	height: 35px;
+	height: 37px;
 	top: 13px;
 	right: 0;
 	margin: 0 auto;
@@ -651,9 +651,9 @@ and (max-device-width : 568px) {
 		margin: 14px 0;
 	}
 	.account-error-district-ico {
-		height: 69px;
+		height: 74px;
 		top: 13px;
-		right: 128px;
+		right: 126px;
 		width: 64px;
 	}
 	.account-error-district-ico:before, .account-error-district-ico:after {
@@ -663,9 +663,9 @@ and (max-device-width : 568px) {
 		width: 6px;
 	}
 	.account-error-country-ico{
-		height: 69px;
+		height: 74px;
 		top: 13px;
-		right: -183px;
+		right: -186px;
 		width: 64px;
 	}
 	.account-error-country-ico:before, .account-error-country-ico:after {
@@ -703,7 +703,7 @@ and (max-device-width : 568px) {
 		margin: 0 auto;
 	}
 	.account-error-add{
-		height: 69px;
+		height: 74px;
 		top: 13px;
 		right: 0;
 		width: 64px;
@@ -864,9 +864,9 @@ and (max-device-width : 767px) {
 		margin: 14px 0;
 	}
 	.account-error-district-ico {
-		height: 69px;
+		height: 74px;
 		top: 13px;
-		right: 128px;
+		right: 126px;
 		width: 64px;
 	}
 	.account-error-district-ico:before, .account-error-district-ico:after {
@@ -876,9 +876,9 @@ and (max-device-width : 767px) {
 		width: 6px;
 	}
 	.account-error-country-ico{
-		height: 69px;
+		height: 74px;
 		top: 13px;
-		right: -183px;
+		right: -186px;
 		width: 64px;
 	}
 	.account-error-country-ico:before, .account-error-country-ico:after {
@@ -916,7 +916,7 @@ and (max-device-width : 767px) {
 		margin: 0 auto;
 	}
 	.account-error-add{
-		height: 69px;
+		height: 74px;
 		top: 13px;
 		right: 0;
 		width: 64px;
@@ -1077,9 +1077,9 @@ and (max-device-width: 991px) {
 		margin: 14px 0;
 	}
 	.account-error-district-ico {
-		height: 69px;
+		height: 74px;
 		top: 13px;
-		right: 128px;
+		right: 126px;
 		width: 64px;
 	}
 	.account-error-district-ico:before, .account-error-district-ico:after {
@@ -1089,9 +1089,9 @@ and (max-device-width: 991px) {
 		width: 6px;
 	}
 	.account-error-country-ico{
-		height: 69px;
+		height: 74px;
 		top: 13px;
-		right: -183px;
+		right: -186px;
 		width: 64px;
 	}
 	.account-error-country-ico:before, .account-error-country-ico:after {
@@ -1129,7 +1129,7 @@ and (max-device-width: 991px) {
 		margin: 0 auto;
 	}
 	.account-error-add{
-		height: 69px;
+		height: 74px;
 		top: 13px;
 		right: 0;
 		width: 64px;
@@ -1291,7 +1291,7 @@ and (max-device-width: 1023px) {
 		width: 100%;
 	}
 	.account-error-district-ico {
-		height: 69px;
+		height: 74px;
 		top: 14px;
 		right: 0;
 		width: 64px;
@@ -1303,7 +1303,7 @@ and (max-device-width: 1023px) {
 		width: 6px;
 	}
 	.account-error-country-ico{
-		height: 69px;
+		height: 74px;
 		top: 14px;
 		right: 0;
 		width: 64px;
@@ -1339,7 +1339,7 @@ and (max-device-width: 1023px) {
 		padding-bottom: 65px;
 	}
 	.account-error-add{
-		height: 69px;
+		height: 74px;
 		top: 14px;
 		right: 0;
 		width: 64px;
