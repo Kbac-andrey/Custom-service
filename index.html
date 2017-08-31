@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rallyware</title>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <title>Custom service</title>
     <link rel="stylesheet" href="style/bootstrap.min.css">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/font.css">
@@ -59,13 +59,12 @@
     </div>
     <div id="sidebar-menu">
         <div class="container-fluid row">
-            <div class="col-md-3 .col-xs-2">
+            <div class="col-md-3 .col-xs-2 main-wind-one">
                 <div class="sidebar">
                     <ul class="categories">
-                        <li class="categories-item ">
-                            <a href="#" class="categories-link home ">
-                                <span class="categories-ico"></span>
-                                <span class="categories-text">Home</span>
+                        <li class="categories-item">
+                            <a href="#" class="categories-link home">
+                               Home
                             </a>
                             <div class="categories-amount">
 
@@ -73,8 +72,7 @@
                         </li>
                         <li class="categories-item">
                             <a href="#" class="categories-link chat">
-                                <span class="categories-ico"></span>
-                                <span class="categories-text">Chat</span>
+                                Chat
                             </a>
                             <div class="categories-amount">
                                 1
@@ -82,8 +80,7 @@
                         </li>
                         <li class="categories-item">
                             <a href="#" class="categories-link products">
-                                <span class="categories-ico"></span>
-                                <span class="categories-text">Products</span>
+                                Products
                             </a>
                             <div class="categories-amount">
 
@@ -91,8 +88,7 @@
                         </li>
                         <li class="categories-item">
                             <a href="#" class="categories-link services">
-                                <span class="categories-ico"></span>
-                                <span class="categories-text">Services</span>
+                                Services
                             </a>
                             <div class="categories-amount">
 
@@ -100,9 +96,7 @@
                         </li>
                         <li class="categories-item">
                             <a href="#" class="categories-link leads">
-                                <span class="categories-ico"></span>
-                                <span class="categories-text">Leads</span>
-
+                               Leads
                             </a>
                             <div class="categories-amount">
                                 12
@@ -110,8 +104,7 @@
                         </li>
                         <li class="categories-item">
                             <a href="#" class="categories-link settings">
-                                <span class="categories-ico"></span>
-                                <span class="categories-text">Settings</span>
+                                Settings
                             </a>
                             <div class="categories-amount">
 
@@ -119,14 +112,12 @@
                         </li>
                         <li class="categories-item">
                             <a href="#" class="categories-link help">
-                                <span class="categories-ico"></span>
-                                <span class="categories-text">Help</span>
+                                Help
                             </a>
                             <div class="categories-amount">
 
                             </div>
                         </li>
-
                     </ul>
                 </div>
             </div>
@@ -148,36 +139,34 @@
                             <div class="col-md-6 col-xs-8">
                                 <div class="inform-account">
                                     <form class="form-horizontal account-setting">
-                                        <input type="text" class="account-Success account-Success-phone" placeholder="Business Name">
-                                        <div class="grup-settings district-phone">
-                                            <input type="text" class="account-arror district-input-phone" placeholder="New Jersey">
-                                                <span class="account-arror-ico">
-                                                    <img src="style/image/settings/accaunt-arror-ico.png" class="account-arror-ico-pic" alt="">
+                                        <input type="text" class="account-Success-phone business-name" placeholder="Business Name">
+                                        <div class="group-settings district-phone">
+                                            <input type="text" class="account-error district-input-phone" placeholder="New Jersey">
+                                                <span class="account-error-district-ico">
                                                 </span>
-                                                <span class="account-question">
+                                                <span class="account-question account-question-state">
                                                     <img src="style/image/settings/question.png" alt="" class="account-question-ico">
                                                 </span>
                                         </div>
-                                        <div class="grup-settings coutry-phone">
-                                            <input type="text" class="account-arror coutry-input-phone" placeholder="City, State, Country">
-                                                 <span class="account-arror-ico">
-                                                    <img src="style/image/settings/accaunt-arror-ico.png" class="account-arror-ico-pic" alt="">
+                                        <div class="group-settings country-phone">
+                                            <input type="text" class="account-error country-input-phone" placeholder="City, State, Country">
+                                                 <span class="account-error-country-ico">
                                                 </span>
-                                              <span class="account-question">
+                                            <span class="account-question account-question-all">
                                                     <img src="style/image/settings/question.png" alt="" class="account-question-ico">
-                                              </span>
+                                                </span>
                                         </div>
-                                        <div class="grup-settings coutry-phone">
+                                        <div class="group-settings country-phone">
                                             <input type="text" class="account-Success Success-input-phone" placeholder="Phone Num X-XXX-XXX-XXXX">
-                                            <span class="account-question">
+                                            <span class="account-question account-question-all">
                                                     <img src="style/image/settings/question.png" alt="" class="account-question-ico">
                                             </span>
                                         </div>
-                                        <div class="grup-settings coutry-phone">
+                                        <div class="group-settings country-phone">
                                              <input type="text" class="account-Success Success-input-phone" placeholder="SMS Chat Num X-XXX-XXX-XXXX">
-                                             <span class="account-question">
-                                                    <img src="style/image/settings/question.png" alt="question" class="account-question-ico">
-                                            </span>
+                                           <span class="account-question account-question-all">
+                                                    <img src="style/image/settings/question.png" alt="" class="account-question-ico">
+                                           </span>
                                         </div>
                                     </form>
                                 </div>
@@ -193,20 +182,19 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="change-accoun">
+                        <div class="change-account">
                             <div class="container row">
                                 <div class="col-md-6">
-                                    <div class="tag-accoun">
-                                        <div class="grup-settings">
-                                            <input type="text" class="account-arror" placeholder="Add a Tag">
-                                            <span class="account-arror-ico">
-                                                <img src="style/image/settings/tab-arror.png" class="tag-arror-ico-pic" alt="">
+                                    <div class="tag-account">
+                                        <div class="group-settings group-with-input-tags">
+                                            <input type="text" class="account-error tags-input-design" placeholder="Add a Tag">
+                                            <span class="account-error-add">
                                             </span>
-                                            <span class="account-question">
-                                                <img src="style/image/settings/question.png" alt="" class="account-question-ico">
+                                            <span class="account-question tag-question">
+                                                <img src="style/image/settings/question.png" alt="New Password" class="account-question-ico">
                                             </span>
                                         </div>
-                                        <div class="tags-grup">
+                                        <div class="tags-group">
                                             <ul class="tags">
                                                 <li class="tag-item">
                                                     <a href="#" class="tag-link">
@@ -235,10 +223,10 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="grup-obligatory">
-                                            <input type="text" class="account-arror" placeholder="Name">
-                                            <span class="account-question">
-                                                <img src="style/image/settings/question.png" alt="" class="account-question-ico">
+                                        <div class="group-obligatory">
+                                            <input type="text" class="account-error tags-input-design" placeholder="Name">
+                                            <span class="account-question tag-question">
+                                                <img src="style/image/settings/question.png" alt="New Password" class="account-question-ico">
                                             </span>
                                         </div>
                                     </div>
@@ -247,22 +235,22 @@
                                     <section class="change-password">
                                         <h2 class="change-password-title">Change Password</h2>
                                     </section>
-                                    <div class="grup-change-password">
-                                        <input type="text" class="account-arror" placeholder="Current Password">
-                                            <span class="account-question">
+                                    <div class="group-change-password">
+                                        <input type="text" class="tags-input-design account-error" placeholder="Current Password">
+                                            <span class="account-question tag-question">
                                                 <img src="style/image/settings/question.png" alt="New Password" class="account-question-ico">
                                             </span>
                                     </div>
-                                    <div class="grup-change-password">
-                                        <input type="text" class="account-arror" placeholder="New Password">
-                                            <span class="account-question">
+                                    <div class="group-change-password ">
+                                        <input type="text" class="tags-input-design account-error" placeholder="New Password">
+                                            <span class="account-question tag-question">
                                                 <img src="style/image/settings/question.png" alt="New Password" class="account-question-ico">
                                             </span>
                                     </div>
-                                    <div class="grup-change-password">
-                                        <input type="text" class="account-arror" placeholder="Confirm Password">
-                                            <span class="account-question">
-                                                <img src="style/image/settings/question.png" alt="Confirm Password" class="account-question-ico">
+                                    <div class="group-change-password">
+                                        <input type="text" class="tags-input-design account-error" placeholder="Confirm Password">
+                                             <span class="account-question tag-question">
+                                                <img src="style/image/settings/question.png" alt="New Password" class="account-question-ico">
                                             </span>
                                     </div>
                                     <div class="hide-error">
@@ -276,27 +264,31 @@
                                     <span class="save-ico">
                                         <img src="style/image/settings/save.png" alt="save" class="save-photo">
                                     </span>
-                                        <span class="save-text">Chane</span>
+                                        <span class="save-text">Change</span>
                                     </a>
                                 </div>
                             </div>
-                                    <div class="hide-sidebar">
-                                        <ul class="hide-categories">
-                                            <li class="hide-categories-item">
-                                                <a href="#" class="hide-categories-link ">
-                                                    <span class="hide-categories-ico"><img src="style/image/sidebar/help-mobile.png" alt="help"></span>
-                                                    <span class="hide-categories-text">Help</span>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
                         </div>
                     </div>
-
+                </div>
             </div>
         </div>
+    <div class="hide-sidebar">
+        <div class="row">
+            <div class="container">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="hide-categories">
+                        <li class="hide-categories-item">
+                            <a href="#" class="hide-categories-link ">
+                                <span class="hide-categories-ico"><img src="style/image/sidebar/help-mobile.png" alt="help"></span>
+                                <span class="hide-categories-text">Help</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
